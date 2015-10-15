@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C31F25691BAEAFEB00CD5BE5 /* SuperMan.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F25681BAEAFEB00CD5BE5 /* SuperMan.m */; };
 		C3866F471BAC487C00D092B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3866F461BAC487C00D092B2 /* main.m */; };
+		C3866F4F1BAC488C00D092B2 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = C3866F4E1BAC488C00D092B2 /* Student.m */; };
+		C3866F551BAC4EAF00D092B2 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = C3866F541BAC4EAF00D092B2 /* Dog.m */; };
+		C3866F591BAC5FA600D092B2 /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = C3866F581BAC5FA600D092B2 /* Light.m */; };
+		C3866F5C1BAC60D600D092B2 /* TV.m in Sources */ = {isa = PBXBuildFile; fileRef = C3866F5B1BAC60D600D092B2 /* TV.m */; };
+		C3866F5F1BAC624900D092B2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C3866F5E1BAC624900D092B2 /* Person.m */; };
+		C3866F621BAC678200D092B2 /* PPP.m in Sources */ = {isa = PBXBuildFile; fileRef = C3866F611BAC678200D092B2 /* PPP.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C31F25671BAEAFEB00CD5BE5 /* SuperMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperMan.h; sourceTree = "<group>"; };
+		C31F25681BAEAFEB00CD5BE5 /* SuperMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperMan.m; sourceTree = "<group>"; };
 		C3866F431BAC487C00D092B2 /* Student */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Student; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3866F461BAC487C00D092B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3866F4D1BAC488C00D092B2 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		C3866F4E1BAC488C00D092B2 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		C3866F501BAC48D800D092B2 /* TestPersonO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestPersonO.h; path = Student/TestPersonO.h; sourceTree = "<group>"; };
+		C3866F531BAC4EAF00D092B2 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		C3866F541BAC4EAF00D092B2 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		C3866F561BAC5F2A00D092B2 /* openClose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openClose.h; sourceTree = "<group>"; };
+		C3866F571BAC5FA600D092B2 /* Light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		C3866F581BAC5FA600D092B2 /* Light.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
+		C3866F5A1BAC60D600D092B2 /* TV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TV.h; sourceTree = "<group>"; };
+		C3866F5B1BAC60D600D092B2 /* TV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TV.m; sourceTree = "<group>"; };
+		C3866F5D1BAC624900D092B2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C3866F5E1BAC624900D092B2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		C3866F601BAC678200D092B2 /* PPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPP.h; sourceTree = "<group>"; };
+		C3866F611BAC678200D092B2 /* PPP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPP.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +64,22 @@
 		C3866F3A1BAC487C00D092B2 = {
 			isa = PBXGroup;
 			children = (
+				C3866F531BAC4EAF00D092B2 /* Dog.h */,
+				C3866F541BAC4EAF00D092B2 /* Dog.m */,
+				C3866F561BAC5F2A00D092B2 /* openClose.h */,
+				C3866F571BAC5FA600D092B2 /* Light.h */,
+				C3866F601BAC678200D092B2 /* PPP.h */,
+				C3866F611BAC678200D092B2 /* PPP.m */,
+				C3866F581BAC5FA600D092B2 /* Light.m */,
+				C3866F5A1BAC60D600D092B2 /* TV.h */,
+				C3866F5D1BAC624900D092B2 /* Person.h */,
+				C31F25671BAEAFEB00CD5BE5 /* SuperMan.h */,
+				C31F25681BAEAFEB00CD5BE5 /* SuperMan.m */,
+				C3866F5E1BAC624900D092B2 /* Person.m */,
+				C3866F5B1BAC60D600D092B2 /* TV.m */,
+				C3866F4D1BAC488C00D092B2 /* Student.h */,
+				C3866F4E1BAC488C00D092B2 /* Student.m */,
+				C3866F501BAC48D800D092B2 /* TestPersonO.h */,
 				C3866F451BAC487C00D092B2 /* Student */,
 				C3866F441BAC487C00D092B2 /* Products */,
 			);
@@ -118,7 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C31F25691BAEAFEB00CD5BE5 /* SuperMan.m in Sources */,
+				C3866F5C1BAC60D600D092B2 /* TV.m in Sources */,
+				C3866F621BAC678200D092B2 /* PPP.m in Sources */,
+				C3866F5F1BAC624900D092B2 /* Person.m in Sources */,
+				C3866F591BAC5FA600D092B2 /* Light.m in Sources */,
 				C3866F471BAC487C00D092B2 /* main.m in Sources */,
+				C3866F551BAC4EAF00D092B2 /* Dog.m in Sources */,
+				C3866F4F1BAC488C00D092B2 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +281,7 @@
 				C3866F4C1BAC487C00D092B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
